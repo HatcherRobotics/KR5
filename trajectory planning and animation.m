@@ -6,6 +6,7 @@ L(3) = Link([0        0.135       0.12   -pi/2]);
 L(4) = Link([0        0.62        0       pi/2]);
 L(5) = Link([0        0           0      -pi/2]);
 L(6) = Link([0        0           0       0]);
+
 KR5=SerialLink(L, 'name', 'Kuka KR5');
 KR5.tool=transl(0,0,0.05);%The fingers of the robot gripper is 50mm
 KR5.ikineType = 'kr5';
